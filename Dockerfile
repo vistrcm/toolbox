@@ -6,4 +6,5 @@ RUN apt-get update \
         ca-cacert \
         dig \
         htop \
+        strace \
      && rm -rf /var/lib/apt/lists/*

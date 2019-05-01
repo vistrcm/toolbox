@@ -5,6 +5,8 @@ RUN apt-get update \
         curl \
         ca-cacert \
         dnsutils \
+        netcat \
         htop \
         strace \
+        gdb \
      && rm -rf /var/lib/apt/lists/*

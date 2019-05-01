@@ -4,7 +4,7 @@ RUN apt-get update \
         iputils-ping \
         curl \
         ca-cacert \
-        dig \
+        dnsutils \
         htop \
         strace \
      && rm -rf /var/lib/apt/lists/*

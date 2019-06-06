@@ -6,6 +6,7 @@ RUN apt-get update \
         ca-cacert \
         dnsutils \
         netcat \
+        nmap \
         htop \
         strace \
         gdb \

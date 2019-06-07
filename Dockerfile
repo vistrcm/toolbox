@@ -4,6 +4,7 @@ RUN apt-get update \
         iputils-ping \
         curl \
         ca-cacert \
+        net-tools \
         dnsutils \
         netcat \
         nmap \

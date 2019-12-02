@@ -11,6 +11,7 @@ RUN apt-get update \
         htop \
         strace \
         gdb \
+        python3-setuptools \
         python3-pip \
         gnupg2 \
      && echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list \

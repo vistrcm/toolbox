@@ -35,7 +35,7 @@ RUN apt-get update \
     jq \
     apt-transport-https \
     age \
-    postgresql \
+    postgresql-client \
     bzip2 \
     magic-wormhole \
     iproute2 \

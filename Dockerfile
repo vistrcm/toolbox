@@ -42,4 +42,5 @@ RUN apt-get update \
     socat \
     lsof \
     bpftrace \
+    ncdu \
     && rm -rf /var/lib/apt/lists/*

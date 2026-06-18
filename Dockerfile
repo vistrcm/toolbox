@@ -43,4 +43,8 @@ RUN apt-get update \
     lsof \
     bpftrace \
     ncdu \
+    sysstat \
+    dstat \
+    iotop \
+    libbpf-tools \
     && rm -rf /var/lib/apt/lists/*

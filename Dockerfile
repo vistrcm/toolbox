@@ -47,3 +47,4 @@ RUN apt-get update \
     iotop \
     libbpf-tools \
     && rm -rf /var/lib/apt/lists/*
+COPY --from=ghcr.io/tailscale/tailcat:v0.7.0 /usr/local/bin/tailcat /usr/local/bin/tailcat
